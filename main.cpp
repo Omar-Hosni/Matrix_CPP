@@ -25,7 +25,7 @@ private:
 
 public:
 	
-	void entryMatrix(int col, int row)
+	void entryMatrix(int row, int col)
 	{
 
 		my_matrix.resize(maxRow, vector<int>(maxCol));
